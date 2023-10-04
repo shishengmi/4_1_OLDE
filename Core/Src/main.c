@@ -92,8 +92,8 @@ int main(void)
 
   OLED_Init();
   OLED_FullyClear();
-  OLED_ShowMixedCH(0,0,(uint8_t *)"HAHAHAHAHA");
-  OLED_RefreshRAM();
+  OLED_ShowMixedCH(0,0,(uint8_t *)"HAHAHAHAHA");//注意参数的数据类型
+  OLED_RefreshRAM();//注意要清楚缓存才能正常显示
 
 
   /* USER CODE END 2 */
